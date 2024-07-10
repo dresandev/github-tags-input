@@ -4,8 +4,8 @@
   inset-block-start: 100%;
   display: none;
   padding-inline-start: 0;
-  background-color: hsl(212 12% 21%);
-  border: 1px solid hsl(212 12% 21%);
+  background-color: var(--color-stroke);
+  border: 1px solid var(--color-stroke);
   list-style: none;
   border-radius: 6px;
   overflow: hidden;
@@ -18,13 +18,13 @@
 }
 
 .suggestedTag {
-  font-weight: 500;
-  background-color: hsl(216 28% 7%);
   padding: 4px 16px;
   font-size: 14px;
+  font-weight: 500;
+  background-color: var(--color-bg);
 }
 
 .suggestedTag[aria-selected="true"],
 .suggestedTag:hover {
-  background-color: hsl(216 84% 52%);
+  background-color: var(--color-primary);
 }

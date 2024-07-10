@@ -1,0 +1,9 @@
+:root {
+  --color-stroke: hsl(212 12% 21%);
+  --color-bg: hsl(216 28% 7%);
+  --color-text: hsl(208 35% 93%);
+  --color-primary: hsl(216 84% 52%);
+  --color-accent: hsl(214 93% 62%);
+  --color-primary-muted: hsl(215 98% 61% / 0.1);
+  --color-emphasis: hsl(0 0% 100%);
+}

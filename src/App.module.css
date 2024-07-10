@@ -5,8 +5,8 @@
   justify-content: center;
   align-items: center;
   min-block-size: 100dvh;
-  background-color: hsl(216 28% 7%);
-  color: hsl(208 35% 93%);
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
 
 .label {

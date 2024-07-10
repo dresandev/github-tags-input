@@ -6,7 +6,7 @@
   gap: 4px;
   inline-size: 600px;
   padding: 4px 12px;
-  border: 1px solid hsl(212, 12%, 21%);
+  border: 1px solid var(--color-stroke);
   border-radius: 6px;
 }
 
@@ -22,17 +22,17 @@
   display: flex;
   align-items: center;
   column-gap: 4px;
-  background-color: hsl(215 98% 61% / 0.1);
-  color: hsl(214, 93%, 62%);
-  border-radius: 2em;
-  padding-inline-start: 10px;
   font-weight: 500;
   line-height: 0;
+  padding-inline-start: 10px;
+  color: var(--color-accent);
+  background-color: var(--color-primary-muted);
+  border-radius: 2em;
 }
 
 .tagPill:hover {
-  color: hsl(0 0% 100%);
-  background-color: hsl(216 84% 52%);
+  color: var(--color-emphasis);
+  background-color: var(--color-primary);
 }
 
 .deleteTagBtn {
@@ -41,13 +41,13 @@
   align-items: center;
   block-size: 24px;
   inline-size: 26px;
+  color: var(--color-accent);
+  background-color: hsla(215, 98%, 61%, 0.1);
   border-radius: 2em;
-  color: hsl(214 93% 62%);
-  background-color: #388bfd1a;
 }
 
 .deleteTagBtn:hover {
-  color: hsl(0 0% 100%);
+  color: var(--color-emphasis);
 }
 
 .closeIcon {
@@ -57,17 +57,17 @@
 }
 
 .input {
-  min-block-size: 26px;
   inline-size: 250px;
+  min-block-size: 26px;
   padding: 0;
+  font: inherit;
+  font-size: 14px;
+  color: inherit;
   background-color: transparent;
   border: none;
   border-radius: 6px;
-  color: inherit;
-  font: inherit;
-  font-size: 14px;
 }
 
 .input:focus {
-  outline: 1px solid hsl(216, 84%, 52%);
+  outline: 1px solid var(--color-primary);
 }
