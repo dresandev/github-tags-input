@@ -1,0 +1,30 @@
+.suggestedTagList {
+  position: absolute;
+  inset-inline: 0;
+  inset-block-start: 100%;
+  display: none;
+  padding-inline-start: 0;
+  background-color: hsl(212 12% 21%);
+  border: 1px solid hsl(212 12% 21%);
+  list-style: none;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.suggestedTagList.display {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1px;
+}
+
+.suggestedTag {
+  font-weight: 500;
+  background-color: hsl(216 28% 7%);
+  padding: 4px 16px;
+  font-size: 14px;
+}
+
+.suggestedTag[aria-selected="true"],
+.suggestedTag:hover {
+  background-color: hsl(216 84% 52%);
+}
