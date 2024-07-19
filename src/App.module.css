@@ -5,8 +5,13 @@
   justify-content: center;
   align-items: center;
   min-block-size: 100dvh;
+  padding-inline: 12px;
   background-color: var(--color-bg);
   color: var(--color-text);
+}
+
+.form {
+  inline-size: min(100%, 600px);
 }
 
 .label {

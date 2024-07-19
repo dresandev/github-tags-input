@@ -12,7 +12,7 @@ function App() {
 
   return (
     <main className={styles.main}>
-      <form>
+      <form className={styles.form}>
         <label htmlFor="repo_topics" className={styles.label}>
           Topics <span>(separate with spaces)</span>
         </label>
