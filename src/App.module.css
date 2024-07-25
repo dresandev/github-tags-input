@@ -10,8 +10,20 @@
   color: var(--color-text);
 }
 
-.form {
+.wrapper {
   inline-size: min(100%, 600px);
+}
+
+.tagsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: var(--color-primary);
+  padding-block-end: 24px;
+}
+
+.form {
+  inline-size: 100%;
 }
 
 .label {

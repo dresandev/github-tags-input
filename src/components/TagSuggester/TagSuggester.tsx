@@ -36,6 +36,7 @@ export const TagSuggester: FC<Props> = ({
     };
 
     getTags();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [debouncedSearchTerm]);
 
   const handleOnClick: MouseEventHandler<HTMLLIElement> = (e) => {
